@@ -1,0 +1,32 @@
+
+
+.margin-top {
+	margin-top: 50px;
+}
+
+
+.placeholder {
+	margin-top: 200px;
+	margin-bottom: 180px;
+	text-align: center;
+}
+
+body {
+    background-image: url("../img/wave.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+img {
+	margin-top: 20px;
+}
+
+h1,h2 {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   margin-top: 5px;
+}
+
+h1 {
+	font-size: 48px;
+}
