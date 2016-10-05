@@ -5,14 +5,14 @@
 }
 
 
-.placeholder {
-	margin-top: 200px;
+.main {
+	margin-top: 80px;
 	margin-bottom: 180px;
 	text-align: center;
 }
 
 body {
-    background-image: url("../img/wave.jpg");
+    background-image: url("");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
