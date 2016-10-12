@@ -1,10 +1,22 @@
+body {
+    background-color: #fafafa;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
 nav {
 	height: 100px;
 	font-size: 30px;
 	text-align: auto;
 	padding-top: 20px;
-	opacity: 0.5;
 
+}
+
+.navbar-default {
+  background: none;
+  border: none;
 }
 
 .title {
@@ -18,9 +30,15 @@ nav {
 }
 
 .jumbotron {
-	margin-top: -20px;
-	height: 550px;
+	margin-top: -120px;
+	padding-top:150px;
+	height: 650px;
 	background-image: url("../img/casa_verde.png");
+
+}
+
+.jumbotron img {
+
 }
 
 .works {
@@ -28,19 +46,6 @@ nav {
 	text-align: center;
 }
 
-body {
-    background-image: url("");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-}
-
-img {
-	margin-top: 20px;
-}
-
-
-h1 {
-	font-size: 48px;
+.thumbnail img:hover { 
+    opacity: 0.5;
 }
